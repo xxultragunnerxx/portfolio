@@ -27,10 +27,6 @@ const contactInfo = `<ul>
 </ul>`;
 $("#contactInfo").append(contactInfo);
 
-let projectItem1 = `<div><img src="images/controller6.png" class="project" alt="project one"><span>information about the project</span></div>`;
-let projectItem2 = `<div><img src="images/controller6.png" class="project" alt="project two"><span>information about the project</span></div>`;
-
-$("#projects").append(projectItem1,projectItem2);
 const githubLink = `<a>https://github.com/xxultragunnerxx/</a>`;
 $("#projects").append(githubLink);
 
