@@ -13,21 +13,22 @@ h6 {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+div p {
+  font-size: 26px;
+  color: orange;
+}
 
 .clear-fix {
   overflow: auto;
 }
 
-.education-entry,
-.work-entry,
-.project-entry {
-  padding: 0 5%;
+.project{
+  width: 50%;
+  flex-wrap: wrap;
 }
-
 h1 {
   font-size: 40px;
   color: #f5a623;
-  line-height: 48px;
   display: inline;
 }
 
