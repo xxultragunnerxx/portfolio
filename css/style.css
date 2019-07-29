@@ -11,7 +11,7 @@ body {
 div p {
   font-size: 26px;
   color: F15025;
-  padding: 5px;
+  padding: 15px;
 }
  #projects a{
   color: white;
@@ -55,12 +55,18 @@ p {
   color: #F15025;
 }
 #header {
+  background-image: url(http://www.launchphotography.com/Miami_skyline_panorama.jpg);
   background-color: #293132;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #header .headshot{
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 150px;
 }
 #bio,
 #projects,
@@ -78,17 +84,16 @@ img {
 span {
   font-size: 26px;
   color: #FC9E4F;
-  padding: 10px;
+  padding: 0px;
+  margin: 5px;
   background: rgba(45, 45, 45, 0.4);
-  line-height: 1.8;
+  line-height: 1.6;
   text-align: left;
   }
-/* Media queries to handle various device widths */
-@media only screen and (max-width:900px) {
-  #header .headshot {
-    width: 175px;
-  }
+.clear-fix {
+  overflow: auto;
 }
+/* Media queries to handle various device widths */
 @media only screen and (max-width: 750px) {
   #header .headshot {
     display: none;
